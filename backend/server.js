@@ -30,16 +30,8 @@ app.get('/', (req, res) => {
     res.send("API WORKING")
 })
 
-// app.use(express.static(path.join(__dirname, "../frontend/dist")))
-// app.get("*", (req, res) => {
-//   res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
-// })
-
 app.listen(PORT, () => {
     console.log(`Server started on http://localhost:${PORT}`)
 })
 
-// l2565312
-// iEDWwrrnJvfvv6xC
-// mongodb+srv://l2565312:iEDWwrrnJvfvv6xC@cluster0.rlcuigf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
