@@ -1,6 +1,4 @@
-import { data } from 'react-router-dom'
 import foodModel from '../models/FoodModel.js'
-import FoodModel from '../models/FoodModel.js'
 import fs from 'fs'
 
 const addFood = async(req, res) => {
