@@ -10,7 +10,7 @@ import cartRouter from './routes/cartRoute.js'
 import orderRouter from './routes/orderRoute.js'
 
 const app = express()
-const port = 4000
+const PORT = process.env.PORT || 4000
 
 app.use(express.json())
 app.use(cors())
@@ -30,8 +30,13 @@ app.get('/', (req, res) => {
     res.send("API WORKING")
 })
 
-app.listen(port, () => {
-    console.log(`Server started on http://localhost:${port}`)
+app.use(express.static(path.join(__dirname, "../frontend/dist")))
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
+})
+
+app.listen(PORT, () => {
+    console.log(`Server started on http://localhost:${PORT}`)
 })
 
 // l2565312
