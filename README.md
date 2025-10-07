@@ -11,6 +11,8 @@ food-del/
 ├── frontend/ # React (Vite)  
 └── backend/ # Express + MongoDB API  
 
+## Admin Panel
+https://food-del-admin-uqan.onrender.com  
 
 
 ## Frontend:
