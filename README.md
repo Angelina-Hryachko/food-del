@@ -6,10 +6,10 @@ A full-fledged food delivery application consisting of two parts:
 
 ## Project structure
 
-food-del/
-├── admin/ # Admin panel (optional)
-├── frontend/ # React (Vite)
-└── backend/ # Express + MongoDB API
+food-del/  
+├── admin/ # Admin panel (optional)  
+├── frontend/ # React (Vite)  
+└── backend/ # Express + MongoDB API  
 
 
 
