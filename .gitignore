@@ -1,4 +1,3 @@
-# Общие
 node_modules/
 dist/
 build/
@@ -12,28 +11,23 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# IDE и редакторы
 .vscode/
 .idea/
 *.iml
 
-# ОС системные файлы
 *.swp
 *.swo
 *~
 
-# Backend (например Express/SpringBoot с TS/JS)
 backend/node_modules/
 backend/dist/
 backend/build/
 backend/.env
 
-# Frontend
 frontend/node_modules/
 frontend/dist/
 frontend/.env
 
-# Admin
 admin/node_modules/
 admin/dist/
 admin/.env
